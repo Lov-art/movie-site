@@ -1,0 +1,7 @@
+html,body,header,#intro{
+	height: 100%;
+}
+header{
+	background: url(../img/film-1668918.jpg);
+	background-size: cover;
+}
