@@ -208,35 +208,32 @@
 
 
 
-	<script src="js/main.js">
-		 
+	<script src="js/main.js"> 
 	</script>
 
 
-	<script>
-		var actor = new Actor ( [
-			[
-			["Леонардо ДиКаприо"]
-			],
-			[
-			["Кейт Бланшетт"]
-			],
-			[
-			["Мэтт Росс"]
-			]
-			] );
-		var actor = [ actor ] ;
+<!-- 	<script>
+		var aviator = {
+			title: "Авиатор",
+			director : "Мартин Скорсезе",
+			actors : ["Леонардо ДиКаприо", "Кейт Бланшетт","Мэтт Росс"] ,
+			synopsis: "Получив от отца небольшую фабрику, Говард Хьюз превратил ее в гигантское, фантастически прибыльное предприятие. Став владельцем огромной кинокомпании, он снял самый дорогой для своего времени фильм и покорил сердца прелестнейших голливудских актрис."
+		}
 
-		var director = new director ( ["Мартин Скорсезе"] ) ;
+		var actors = new actors ( aviator.actors );
+		var actors = [ actors ] ;
+
+		var director = new director ( aviator.director ) ;
 		var director = [ director ] ;
 
-		var title = new title ( ["Авиатор"] ) ;
+		var title = new title ( aviator.title ) ;
 		var title = [ title ] ;
 
-		var synopsis = new synopsis (["Получив от отца небольшую фабрику, Говард Хьюз превратил ее в гигантское, фантастически прибыльное предприятие. Став владельцем огромной кинокомпании, он снял самый дорогой для своего времени фильм и покорил сердца прелестнейших голливудских актрис."]) ;
+		var synopsis = new synopsis (aviator.synopsis) ;
 		var synopsis = [synopsis]
 
-		var movie = new Movie ( title, director, actor ,synopsis );
+		var movie = new Movie ( title, director, actors ,synopsis );
+
 		console.log(movie.getTitle());
 		console.log(movie.getDirector());
 		console.log(movie.getActors());
@@ -246,16 +243,11 @@
     
 
 
-	</script>
-	<script>
-		var movie = {
-		title: "Авиатор",
-		director : "Мартин Скорсезе",
-		actors : ["Леонардо ДиКаприо", "Кейт Бланшетт","Мэтт Росс"] ,
-		synopsis: "Получив от отца небольшую фабрику, Говард Хьюз превратил ее в гигантское, фантастически прибыльное предприятие. Став владельцем огромной кинокомпании, он снял самый дорогой для своего времени фильм и покорил сердца прелестнейших голливудских актрис.",
+	
+	</script> -->
 
-			}
-	</script>
+
+
 
 
 </section>
