@@ -1,83 +1,4 @@
-//  function Movie (data ) {
-// 	this.title = data.Title;
-	
-// 	this.synopsis = data.Synopsis;
 
-// }
-// Movie.prototype = {
-// 		getTitle: function (){
-// 		var str=" ";
-
-// 		for (var i = 0; i < this.title.length ; i++) {
-// 				str += this.title[i].getName()
-// 		}
-// 		return str;
-// 		} ,
-
-// 		getDirector: function (){
-// 		var str=" ";
-
-// 		for (var i = 0; i < this.director.length ; i++) {
-// 				str += this.director[i].getName()
-// 		}
-// 		return str;	
-// 		} ,
-
-// 		getActors: function (){
-// 		var str=" ";
-
-// 		for (var i = 0; i < this.actors.length ; i++) {
-// 				str += this.actors[i].getName()
-// 		}
-// 		return str;
-	
-// 		} ,
-
-// 		getSynopsis: function(){
-// 		var str=" ";
-
-// 		for (var i = 0; i < this.synopsis.length ; i++) {
-// 				str += this.synopsis[i].getName()
-// 		}
-// 		return str;
-// 		}
-// 	}
-
-
-// function actors ( name ){
-
-// 	this.name = name ;
-// 	this.getName = function(){
-// 		return this.name;
-// 	}
-// }
-
-// function director ( name ){
-
-// 	this.name = name ;
-// 	this.getName = function(){
-// 		return this.name;
-// 	}
-
-	
-// }		
-
-
-// function title ( name ){
-
-// 	this.name = name ;
-// 	this.getName = function(){
-// 		return this.name;
-// 	}
-
-// }	
-
-// function synopsis (name){
-// 	this.name = name ;
-// 	this.getName = function(){
-// 		return this.name;
-// 	}
-// }
 var Movies = [
   {
     "ID": "HO00000199",
@@ -429,7 +350,7 @@ Movie.prototype.deleteData = function(Title) {
 };
 
 
-// ****--------------
+
 
 
 var MoviesList = function(movies) {
@@ -494,19 +415,32 @@ MoviesList.prototype.deleteMovieById = function(ID) {
   }
 };
 
+const moviesApi = new MoviesAPI();
 
-  
-
-
+moviesApi.getMovies(function(xhr) {
+  console.log(xhr);
+});
 
 const myMoviesList = new MoviesList(Movies);
 
-const result = myMoviesList.sortBy('Rating', 'up');
+const result = myMoviesList.sortBy('ID', 'up');
 
 for (var i = 0; i < result.length; i++) {
-  console.log(result[i]);
+console.log(result[i])
+
+
 }
 
+const MoviesContainer = document.getElementById('movies-container');
+const MoviesListView = new MovieListView();
 
-	
-  
+MoviesListView.render(myMoviesList.getMovies(), MoviesContainer);
+
+document.addEventListener('click', function(e) {
+  if(e.target && e.target.classList.contains('delete-movie')) {
+    const movieId = e.target.id;
+
+    myMoviesList.deleteMovieById(movieId);
+    MoviesListView.render(myMoviesList.getMovies(), MoviesContainer);
+  }
+});

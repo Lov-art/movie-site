@@ -1,0 +1,218 @@
+{
+	"info": {
+		"_postman_id": "4468f409-c0e3-411e-bbf8-14c2f6c88ad4",
+		"name": "node project",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GetAllFilms",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "",
+						"value": "",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/films",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"films"
+					]
+				},
+				"description": "get all films"
+			},
+			"response": []
+		},
+		{
+			"name": "AddFilms",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\t{\r\n\t   \"movie\": {\r\n            \"ID\": \"55874\",\r\n            \"Title\": \"ІЗОЛЯЦІЯ\",\r\n            \"RunTime\": 90,\r\n            \"OpeningDate\": \"2019-08-22T00:00:00\",\r\n            \"TitleAlt\": \"Abgeschnitten \",\r\n            \"GenreId\": \"0000000008\",\r\n            \"Actors\": [\r\n                \"Вася\"\r\n            ],\r\n            \"Genred\": \"Триллер\",\r\n            \"RatingCount\": 0,\r\n            \"srcImage\": \"\"\r\n        }\r\n\t}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/films",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"films"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EditFilm",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "  {\"id\": \"55874\",\"options\":{\"ID\":\"testId\"}}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/films",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"films"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteFilm",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "  {\"id\": \"testId\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/films",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"films"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetByOptions",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": " {\"options\":{\"Genred\":[\"Триллер\", \"Драма\"], \"OpeningDate\": \"2019-09-26T00:00:00\"}}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/films/getByOptions",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"films",
+						"getByOptions"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetImgFilm",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://oskar.kyiv.ua/storage/movies/API/HO00000220.jpg",
+					"protocol": "https",
+					"host": [
+						"oskar",
+						"kyiv",
+						"ua"
+					],
+					"path": [
+						"storage",
+						"movies",
+						"API",
+						"HO00000220.jpg"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

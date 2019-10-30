@@ -1,0 +1,256 @@
+{
+	"list": [
+		{
+			"ID": "0000000001",
+			"Name": "Пригоди",
+			"NameTranslations": [],
+			"Description": null,
+			"DescriptionTranslations": []
+		},
+		{
+			"ID": "0000000002",
+			"Name": "Фентезі",
+			"NameTranslations": [],
+			"Description": null,
+			"DescriptionTranslations": []
+		},
+		{
+			"ID": "0000000003",
+			"Name": "Сімейний",
+			"NameTranslations": [],
+			"Description": null,
+			"DescriptionTranslations": []
+		},
+		{
+			"ID": "0000000004",
+			"Name": "Драма",
+			"NameTranslations": [],
+			"Description": "",
+			"DescriptionTranslations": []
+		},
+		{
+			"ID": "0000000005",
+			"Name": "Екшн",
+			"NameTranslations": [],
+			"Description": "Екшн",
+			"DescriptionTranslations": []
+		},
+		{
+			"ID": "0000000006",
+			"Name": "Містика",
+			"NameTranslations": [],
+			"Description": null,
+			"DescriptionTranslations": []
+		},
+		{
+			"ID": "0000000007",
+			"Name": "Жахи",
+			"NameTranslations": [],
+			"Description": null,
+			"DescriptionTranslations": []
+		},
+		{
+			"ID": "0000000008",
+			"Name": "Триллер",
+			"NameTranslations": [],
+			"Description": "",
+			"DescriptionTranslations": []
+		},
+		{
+			"ID": "0000000009",
+			"Name": "Комедія",
+			"NameTranslations": [],
+			"Description": null,
+			"DescriptionTranslations": []
+		},
+		{
+			"ID": "0000000010",
+			"Name": "Фантастика",
+			"NameTranslations": [],
+			"Description": null,
+			"DescriptionTranslations": []
+		},
+		{
+			"ID": "0000000011",
+			"Name": "Мелодрама",
+			"NameTranslations": [],
+			"Description": null,
+			"DescriptionTranslations": []
+		},
+		{
+			"ID": "0000000012",
+			"Name": "Романтична комедія",
+			"NameTranslations": [],
+			"Description": null,
+			"DescriptionTranslations": []
+		},
+		{
+			"ID": "0000000013",
+			"Name": "Музичний",
+			"NameTranslations": [],
+			"Description": null,
+			"DescriptionTranslations": []
+		},
+		{
+			"ID": "0000000014",
+			"Name": "Дитячий",
+			"NameTranslations": [],
+			"Description": "",
+			"DescriptionTranslations": []
+		},
+		{
+			"ID": "0000000015",
+			"Name": "Драмеді",
+			"NameTranslations": [],
+			"Description": null,
+			"DescriptionTranslations": []
+		},
+		{
+			"ID": "0000000016",
+			"Name": "Документальний",
+			"NameTranslations": [],
+			"Description": null,
+			"DescriptionTranslations": []
+		},
+		{
+			"ID": "0000000017",
+			"Name": "Кримінальний",
+			"NameTranslations": [],
+			"Description": null,
+			"DescriptionTranslations": []
+		},
+		{
+			"ID": "0000000018",
+			"Name": "Анімаційний",
+			"NameTranslations": [],
+			"Description": null,
+			"DescriptionTranslations": []
+		},
+		{
+			"ID": "0000000019",
+			"Name": "Бойовик",
+			"NameTranslations": [],
+			"Description": null,
+			"DescriptionTranslations": []
+		},
+		{
+			"ID": "0000000020",
+			"Name": "Історичний",
+			"NameTranslations": [],
+			"Description": null,
+			"DescriptionTranslations": []
+		},
+		{
+			"ID": "0000000021",
+			"Name": "Біографічний",
+			"NameTranslations": [],
+			"Description": null,
+			"DescriptionTranslations": []
+		},
+		{
+			"ID": "0000000022",
+			"Name": "Трагікомедія",
+			"NameTranslations": [],
+			"Description": null,
+			"DescriptionTranslations": []
+		},
+		{
+			"ID": "0000000023",
+			"Name": "Психологічний",
+			"NameTranslations": [],
+			"Description": null,
+			"DescriptionTranslations": []
+		},
+		{
+			"ID": "0000000024",
+			"Name": "Психологічний трилер",
+			"NameTranslations": [],
+			"Description": null,
+			"DescriptionTranslations": []
+		},
+		{
+			"ID": "0000000025",
+			"Name": "На основі реальних подій",
+			"NameTranslations": [],
+			"Description": null,
+			"DescriptionTranslations": []
+		},
+		{
+			"ID": "0000000026",
+			"Name": "Політичний",
+			"NameTranslations": [],
+			"Description": null,
+			"DescriptionTranslations": []
+		},
+		{
+			"ID": "0000000027",
+			"Name": "Байопік",
+			"NameTranslations": [],
+			"Description": null,
+			"DescriptionTranslations": []
+		},
+		{
+			"ID": "0000000028",
+			"Name": "Детектив",
+			"NameTranslations": [],
+			"Description": "Детектив",
+			"DescriptionTranslations": []
+		},
+		{
+			"ID": "0000000029",
+			"Name": "Військовий",
+			"NameTranslations": [],
+			"Description": null,
+			"DescriptionTranslations": []
+		},
+		{
+			"ID": "0000000030",
+			"Name": "Романтичний",
+			"NameTranslations": [],
+			"Description": null,
+			"DescriptionTranslations": []
+		},
+		{
+			"ID": "0000000031",
+			"Name": "Вестерн",
+			"NameTranslations": [],
+			"Description": null,
+			"DescriptionTranslations": []
+		},
+		{
+			"ID": "0000000032",
+			"Name": "Biopic",
+			"NameTranslations": [],
+			"Description": "Біографічний фільм",
+			"DescriptionTranslations": []
+		},
+		{
+			"ID": "0000000033",
+			"Name": "Короткометражний",
+			"NameTranslations": [],
+			"Description": "Короткометражний",
+			"DescriptionTranslations": []
+		},
+		{
+			"ID": "0000000034",
+			"Name": "Еротика",
+			"NameTranslations": [],
+			"Description": "Еротика",
+			"DescriptionTranslations": []
+		},
+		{
+			"ID": "0000000035",
+			"Name": "Фестиваль",
+			"NameTranslations": [],
+			"Description": "Фестиваль",
+			"DescriptionTranslations": []
+		},
+		{
+			"ID": "0000000036",
+			"Name": "Концерт",
+			"NameTranslations": [],
+			"Description": null,
+			"DescriptionTranslations": []
+		}
+	]
+}
