@@ -6,18 +6,29 @@ header{
 	background-size: cover;
 }
 
+.navbar {
+	background-color: black;
+}
+
 .movie-container {
 	
 	display: flex;
-	margin-bottom: 75px;
+	margin: 38px;
 	justify-content: space-around;
 	max-width: 100%;
+	border: 3px ridge gray;
+	padding: 15px 15px ;
+	backdrop-filter: blur(10px);
 }
 
 body{
-	background: #B2FEFA;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #0ED2F7, #B2FEFA);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #0ED2F7, #B2FEFA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
+background-image: url(../img/popcorn-1433327_1920.jpg);
+background-repeat: no-repeat;
+background-attachment: fixed;
 
+}
+
+.movie .movie--edit {
+	display: none;
 }
